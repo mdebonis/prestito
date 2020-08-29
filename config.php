@@ -1,6 +1,6 @@
 <?php
-$host = $_ENV["APP_HOST"];
-$user = $_ENV["APP_DB_USER"];
-$password = $_ENV["APP_DB_PASSWORD"];
-$database = $_ENV["APP_DB_NAME"];
+$host = getenv("APP_HOST");
+$user = getenv("APP_DB_USER");
+$password = getenv("APP_DB_PASSWORD");
+$database = getenv("APP_DB_NAME");
 ?>

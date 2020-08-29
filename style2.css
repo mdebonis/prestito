@@ -1,0 +1,28 @@
+html {
+	
+	background-color: #DDFCD9;
+	font-size: 16pt;
+}
+a:link, a:visited {
+    background-color: #4CAF50;
+    color: white;
+    
+    text-align: center;	
+    text-decoration: none;
+    display: inline-block;
+	width: 100%;
+	background-position: center;
+}
+
+
+a:hover, a:active {
+    background-color: green;
+	width: 100%;
+	background-position: center;
+}
+h1 {
+    color: green;
+    font-family: Verdana;
+    font-size: 200%;
+	
+}

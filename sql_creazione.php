@@ -4,7 +4,12 @@ $user="root";
 $password="";
 $database="prestito";*/
 require 'config.php';
+print_r($host);
+print_r($user);
+print_r($password);
+print_r($database);
 mysql_connect($host,$user,$password);
+
 @mysql_select_db($database) or die( "Impossibile accedere al data base!");
 
 //tabella dei prestiti

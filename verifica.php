@@ -1,7 +1,7 @@
 <?php
 		//$user="root"; $password=""; $host="127.0.0.1"; $database="prestito";
 		require 'config.php';
-		$connessione = mysql_connect("localhost",$user,$password);
+		$connessione = mysql_connect($host,$user,$password);
 		$trovato =0;
 		mysql_select_db($database,$connessione) or die( "Unable to select database");
 	if (!$connessione){

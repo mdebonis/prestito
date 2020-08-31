@@ -15,9 +15,7 @@
 	//sha1 funzione per criptare la password
 	$pw = mysql_real_escape_string(sha1($_POST['password']));
 
-	$query = "SELECT *
-				FROM utenti
-				WHERE utenti.id_utente like '$id_utente' AND utenti.pw like '$pw'";
+	$query = "SELECT * FROM utenti WHERE utenti.id_utente like $id_utente AND utenti.pw like '$pw'";
 	
 	$res = mysql_query($query);
 
